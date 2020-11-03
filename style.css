@@ -1,0 +1,62 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+header{
+    background: black;
+    height: 100px;    
+    
+    
+}
+    
+li{
+    display: flex;
+    list-style: none;
+    float: left;
+    margin-right: 10px;
+    padding: 10px 0px 0px 20px;
+    font-family: Arial, sans-serif;
+    font-size: 16pt;
+
+}
+#busca{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    padding: 10px;
+
+}
+
+#txtbusca{
+    border-radius: 0px 10px 10px 0px;
+    width: auto;
+    height: 25px;
+    text-align: left;
+    padding: 5px;
+    border: 0;
+}
+#search{
+    width: 30px;
+    background: white;
+    border-radius: 10px 0px 0px 10px;
+    
+}
+
+a:link {
+    text-decoration: none;
+    
+    
+}
+a:visited {
+    text-decoration: none;
+    color: white;
+}
+a:active{
+    text-decoration: none;
+    color: red;
+}
+a:hover{
+    text-decoration: none;
+    color: gray;
+}
